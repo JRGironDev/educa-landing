@@ -1,46 +1,75 @@
+---
+import CheckBox from "./icons/CheckBox.astro";
+---
+
 <section class="bg-secondary">
-    <div class="flex flex-col gap-x-2 lg:flex-row mx-auto py-20 lg:max-w-7xl">
-        <div class="w-3/4 flex flex-col justify-start text-left text-primary">
+    <div class="flex flex-col lg:flex-row mx-auto py-20 lg:max-w-7xl">
+        <div class="w-1/2 flex flex-col text-left text-primary">
             <h2 class="text-4xl font-bold text-left mb-6 lg:max-w-3xl">
-                ¿En qué consiste este curso?
+                ¿En qué consiste esta capacitación?
             </h2>
 
-            <article class="text-lg font-light [&>p]:mb-6 text-pretty lg:max-w-3xl">
-                <p>
+            <article class="text-lg font-light text-pretty">
+                <p class="mb-4">
                     Educa.Online te ofrece una solución integral para convertir tu conocimiento en un producto digital rentable.
                 </p>
 
-                <p>
-                    Tendrás acceso al contenido que sabemos que funciona porque las hemos aplicado nosotros y miles de personas y te permitirá iniciar tu camino hacia la libertad financiera.
+                <p class="mb-6">
+                    Tendrás acceso al contenido que sabemos que funciona porque lo hemos aplicado nosotros y miles de personas y te permitirá iniciar tu camino hacia la libertad financiera.
                 </p>
 
-                <p>
-                    Aprenderás a diseñar y preparar la información esencial para tu producto digital.
-                </p>
+                <li class="list-none flex items-start gap-x-4 mb-2">
+                    <span class="w-8">
+                        <CheckBox class="size-6"/>
+                    </span>
+                    <p>
+                        <span class="font-bold">Aprenderás a diseñar y preparar</span> la información esencial para tu producto digital.
+                    </p>
+                </li>
 
-                <p>
-                    ominarás la metodología de Feldman para estructurar tu curso y resolver problemas específicos del mercado.
-                </p>
+                <li class="list-none flex items-start gap-x-4 mb-2">
+                    <span class="w-8">
+                        <CheckBox class="size-6"/>
+                    </span>
+                    <p>
+                        <span class="font-bold">Dominarás la metodología de Feldman</span> para estructurar tu curso y resolver problemas específicos del mercado.
+                    </p>
+                </li>
 
-                <p>
-                    Implementarás estrategias efectivas para grabar tu contenido, manteniendo a los estudiantes comprometidos.
-                </p>
+                <li class="list-none flex items-start gap-x-4 mb-2">
+                    <span class="w-8">
+                        <CheckBox class="size-6"/>
+                    </span>
+                    <p>
+                        <span class="font-bold">Implementarás estrategias efectivas</span> para grabar tu contenido, manteniendo a los estudiantes comprometidos.
+                    </p>
+                </li>
 
-                <p>
-                    Aprenderás a publicar tu curso de manera rápida y sencilla en plataformas como Hotmart®.
-                </p>
+                <li class="list-none flex items-start gap-x-4 mb-2">
+                    <span class="w-8">
+                        <CheckBox class="size-6"/>
+                    </span>
+                    <p>
+                        <span class="font-bold">Aprenderás a publicar tu curso de manera rápida y sencilla</span> en plataformas como Hotmart®.
+                    </p>
+                </li>
 
-                <p>
-                    Desarrollarás tácticas para atraer afiliados que comercialicen tu producto, ampliando tu alcance y ventas.
-                </p>
+                <li class="list-none flex items-start gap-x-4 mb-2">
+                    <span class="w-8">
+                        <CheckBox class="size-6"/>
+                    </span>
+                    <p>
+                        <span class="font-bold">Desarrollarás tácticas para atraer afiliados</span> que comercialicen tu producto, ampliando tu alcance y ventas.
+                    </p>
+                </li>
             </article>
         </div>
 
-        <div class="w-1/4 flex justify-center items-center mx-auto">
-            <img 
-                class="w-86"
-                src="../../public/3d-business-man.png" 
-                alt="Curso online" class="w-full">
+        <div class="w-1/2 flex justify-center items-center mx-auto">
+            <img
+                class="w-3/4"
+                src="../../public/Mockups.webp" 
+                alt="Curso online">
         </div>
     </div>
 </section>
